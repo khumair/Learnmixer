@@ -7,18 +7,6 @@
     tools:context=".MainActivity"
     android:weightSum="1">
 
-    <SearchView
-        android:layout_width="133dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/searchView"
-        android:layout_weight="0.07" />
-
-    <TextClock
-        android:layout_width="175dp"
-        android:layout_height="wrap_content"
-        android:id="@+id/textClock"
-        android:layout_gravity="right" />
-
     <LinearLayout
         android:id="@+id/bottomlinear"
         android:layout_width="match_parent"
@@ -34,6 +22,12 @@
             android:textSize="30sp"
             android:text="Drag Me"
             android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/button" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/bottomlinear"
@@ -60,4 +54,11 @@
             android:id="@+id/Sucess"
             android:textSize="20sp" />
     </LinearLayout>
+
+    <SearchView
+        android:layout_width="718dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView"
+        android:layout_weight="0.07"
+        android:layout_gravity="center_horizontal" />
 </LinearLayout>
