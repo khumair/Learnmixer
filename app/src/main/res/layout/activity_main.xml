@@ -11,9 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="400px"
         android:gravity="center"
-        android:background="#00ff00"
+        android:background="#A4C639"
         android:orientation="vertical"
-        android:layout_weight="0.48">
+        android:layout_weight="0.42">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
