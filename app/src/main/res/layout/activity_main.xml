@@ -4,20 +4,23 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".MainActivity" >
+    tools:context=".MainActivity"
+    android:weightSum="1">
     <LinearLayout
         android:id="@+id/bottomlinear"
         android:layout_width="match_parent"
         android:layout_height="400px"
         android:gravity="center"
         android:background="#00ff00"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:layout_weight="0.48">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/one"
             android:textSize="30sp"
-            android:text="Drag Me" />
+            android:text="Drag Me"
+            android:layout_gravity="center_horizontal" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/bottomlinear"
@@ -25,7 +28,8 @@
         android:layout_height="400px"
         android:gravity="center"
         android:background="#00ffff"
-        android:orientation="vertical" >
+        android:orientation="vertical"
+        android:layout_weight="0.28">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
