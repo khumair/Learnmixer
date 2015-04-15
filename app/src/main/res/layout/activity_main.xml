@@ -15,19 +15,13 @@
         android:background="#A4C639"
         android:orientation="vertical"
         android:layout_weight="0.42">
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/one"
             android:textSize="30sp"
-            android:text="Drag Me"
-            android:layout_gravity="center_horizontal" />
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New Button"
-            android:id="@+id/button" />
+            android:text="Drag Me" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/bottomlinear"
