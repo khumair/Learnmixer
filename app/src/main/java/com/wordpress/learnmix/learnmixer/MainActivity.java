@@ -10,6 +10,9 @@ package com.wordpress.learnmix.learnmixer;
         import android.widget.Button;
         import android.widget.LinearLayout;
         import android.widget.TextView;
+
+        import com.kidsapp.kidslearning.R;
+
 public class MainActivity extends Activity {
     Button drag;
     LinearLayout drop;
@@ -18,6 +21,8 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
+
         setContentView(R.layout.activity_main);
         drag = (Button)findViewById(R.id.one);
         drop = (LinearLayout)findViewById(R.id.bottomlinear);
